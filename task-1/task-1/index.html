@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Extensions</title>
+  <link rel="stylesheet" href="/task-1/style.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="header">
+      
+        <div class="logo">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo.svg');height: 40px;width: 40px;"></div>
+            <h2>Extensions</h2>
+        </div>
+        <button class="settings" style="background: url('/task-1/assets/images/icon-sun.svg');height: 23px;width: 20px;"></button>
+    
+    </div>
+  </div>
+    
+
+   <br><br>
+    <div class="top-section">
+      <h1>Extensions List</h1>
+      <div class="filters" id="filtercontainer">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="active">Active</button>
+        <button class="filter" data-filter="inactive">Inactive</button>
+      </div>
+    </div>
+<br>
+    
+    <div class="cards" id="cardContainer">
+      
+      
+      
+      <div class="card active">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-devlens.svg');height: 60px;width: 85px;"></div>
+          <div>
+            <h3>DevLens</h3>
+            <p>Quickly inspect page layouts and visualize element boundaries.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card active">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-style-spy.svg');height: 60px;width: 80px;"></div>
+          <div>
+            <h3>StyleSpy</h3>
+            <p>Instantly analyze and copy CSS from any webpage element.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card inactive">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-speed-boost.svg');height: 60px;width: 85px;"></div>
+          <div>
+            <h3>SpeedBoost</h3>
+            <p>Optimizes browser resource usage to accelerate page loading.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card active">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-json-wizard.svg');height: 60px;width: 80px;"></div>
+          <div>
+            <h3>JSONWizard</h3>
+            <p>Formats,validates,and prettifies JSON responses in browser.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card active">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-tab-master-pro.svg');height: 60px;width: 70px;"></div>
+          <div>
+            <h3>TabMaster Pro</h3>
+            <p>Organizes browser tabs into groups and sessions.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card inactive">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-viewport-buddy.svg');height: 60px;width: 85px;"></div>
+          <div>
+            <h3>ViewportBuddy</h3>
+            <p>Simulates various screen resolutions directly within the browser.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card active">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-markup-notes.svg');height: 60px;width: 85px;"></div>
+          <div>
+            <h3>Markup Notes</h3>
+            <p>Enables annotations and notes directly onto webpages for collaborative debugging.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card inactive">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-grid-guides.svg');height: 60px;width: 85px;"></div>
+          <div>
+            <h3>GridGuides</h3>
+            <p>Overlays customizable grids and alignment guides on any webpages.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+      <div class="card active">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-palette-picker.svg');height: 60px;width: 73px;"></div>
+          <div>
+            <h3>Palette Picker</h3>
+            <p>Instantly extracts color palettes from any webpage.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card active">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-link-checker.svg');height: 60px;width: 74px;"></div>
+          <div>
+            <h3>LinkChecker</h3>
+            <p>Scans and highlights broken links on any webpage.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card inactive">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-dom-snapshot.svg');height: 60px;width: 66px;"></div>
+          <div>
+            <h3>DOM Snapshot</h3>
+            <p>Capture and export DOM structures quickly.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card active">
+        <div class="card-header">
+          <div class="logo-icon" style="background: url('/task-1/assets/images/logo-console-plus.svg');height: 60px;width: 85px;"></div>
+          <div>
+            <h3>ConsolePlus</h3>
+            <p>Enhanced developer console with advanced filtering and logging.</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="remove">Remove</button>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      
+
+
+     
+
+    </div>
+
+  </div>
+
+<script src="/task-1/app.js"></script>
+</body>
+</html>
